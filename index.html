@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veerendra Sabbina | Portfolio</title>
+
+  <meta name="description" content="Veerendra Sabbina — Full Stack Java Developer building secure microservices, REST APIs, and cloud-native solutions on AWS.">
+  <meta name="theme-color" content="#070B1B">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#home">Skip to content</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#home" aria-label="Go to top">Veerendra<span class="dot">.</span></a>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link active" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Experience</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link nav-cta" href="VEERENDRA_resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" aria-label="Mobile">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Experience</a>
+      <a class="nav-link" href="#education">Education</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-link" href="VEERENDRA_resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Full Stack Java Developer • AWS • Microservices</p>
+
+          <h1 class="hero-title">
+            Veerendra Sabbina
+          </h1>
+
+          <p class="hero-sub">
+            <span id="typingText"></span><span class="cursor" aria-hidden="true">|</span>
+          </p>
+
+          <p class="hero-desc">
+            I build secure REST APIs, event-driven microservices, and cloud-native platforms.
+            Strong in Java/Spring Boot, Angular/React, CI/CD, and AWS deployments (ECS, EC2, Lambda, S3).
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0Z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M10 9h7M10 12h7M10 15h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M7.5 9h.01M7.5 12h.01M7.5 15h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </span>
+              View Experience
+            </a>
+
+            <a class="btn ghost" href="VEERENDRA_resume.pdf" target="_blank" rel="noreferrer">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="m8 11 4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M4 17v3h16v-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+              Download Resume
+            </a>
+
+            <a class="btn ghost" href="#contact">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M22 2 11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M22 2 15 22l-4-9-9-4 20-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              Contact
+            </a>
+          </div>
+
+          <div class="hero-mini">
+            <a class="mini-link" href="mailto:veerendrasabbina752@gmail.com" aria-label="Email">
+              <span class="mini-ico" aria-hidden="true">✉</span>
+              veerendrasabbina752@gmail.com
+            </a>
+            <span class="mini-dot" aria-hidden="true">•</span>
+            <a class="mini-link" href="https://www.linkedin.com/in/veerendrasabbina" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <span class="mini-ico" aria-hidden="true">in</span>
+              LinkedIn
+            </a>
+            <span class="mini-dot" aria-hidden="true">•</span>
+            <a class="mini-link" href="https://github.com/vsb63" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <img src="github.png" class="mini-img" alt="">
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Profile">
+          <div class="avatar-wrap">
+            <img class="avatar" src="veerendra.png" alt="Veerendra profile picture">
+            <div class="ring" aria-hidden="true"></div>
+          </div>
+
+          <div class="hero-card-body">
+            <div class="pill">Kansas City, MO</div>
+            <h2 class="hero-card-title">Full Stack Java Developer</h2>
+            <p class="p-muted">
+              Java / Spring Boot • Angular / React • AWS • Kafka • CI/CD
+            </p>
+
+            <div class="stat-row" aria-label="Highlights">
+              <div class="stat">
+                <div class="stat-n">4+</div>
+                <div class="stat-l">Years</div>
+              </div>
+              <div class="stat">
+                <div class="stat-n">120K+</div>
+                <div class="stat-l">Req/day</div>
+              </div>
+              <div class="stat">
+                <div class="stat-n">99.9%</div>
+                <div class="stat-l">Uptime</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+          <p class="p-muted">
+            Full Stack Developer with 4+ years of experience designing and delivering enterprise-grade applications.
+            I specialize in Java + Spring Boot microservices, secure REST APIs (JWT/OAuth2), and cloud-native deployments on AWS.
+            I also build clean, responsive UIs with Angular and React, and ship with reliable CI/CD and automated testing.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>What I build</h3>
+            <ul class="checklist">
+              <li>Microservices &amp; REST APIs with Spring Boot</li>
+              <li>Event-driven systems with Kafka and AWS</li>
+              <li>Secure services (OAuth2, JWT, Spring Security)</li>
+              <li>CI/CD automation + cloud deployments</li>
+            </ul>
+          </div>
+
+          <div class="about-card">
+            <h3>How I work</h3>
+            <ul class="checklist">
+              <li>Own features end-to-end (design → build → release)</li>
+              <li>Write tests and improve reliability continuously</li>
+              <li>Optimize performance with data-driven profiling</li>
+              <li>Communicate clearly with cross-functional teams</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p class="p-muted">A focused stack for scalable backend systems and modern web apps.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="info-card">
+            <h3>Languages</h3>
+            <div class="chips">
+              <span class="chip">Java</span><span class="chip">Python</span><span class="chip">Golang</span>
+              <span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">SQL</span>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <h3>Backend</h3>
+            <div class="chips">
+              <span class="chip">Spring Boot</span><span class="chip">Spring Security</span><span class="chip">Hibernate / JPA</span>
+              <span class="chip">REST APIs</span><span class="chip">Microservices</span><span class="chip">OAuth2 / JWT</span>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <h3>Frontend</h3>
+            <div class="chips">
+              <span class="chip">Angular</span><span class="chip">React</span><span class="chip">HTML</span><span class="chip">CSS</span>
+              <span class="chip">RxJS</span>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <h3>Cloud &amp; DevOps</h3>
+            <div class="chips">
+              <span class="chip">AWS</span><span class="chip">ECS</span><span class="chip">EC2</span><span class="chip">Lambda</span><span class="chip">S3</span>
+              <span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Terraform</span>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <h3>Data &amp; Messaging</h3>
+            <div class="chips">
+              <span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">Oracle</span><span class="chip">MongoDB</span>
+              <span class="chip">Kafka</span><span class="chip">RabbitMQ</span><span class="chip">Redis</span>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <h3>Testing</h3>
+            <div class="chips">
+              <span class="chip">JUnit</span><span class="chip">Mockito</span><span class="chip">TestNG</span>
+              <span class="chip">Selenium</span><span class="chip">Postman</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Experience</h2>
+          <p class="p-muted">Highlights from recent roles. Full details are in my resume.</p>
+        </div>
+
+        <div class="timeline" id="experienceGrid" aria-label="Experience timeline"></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-title">
+          <h2>Education</h2>
+        </div>
+
+        <div class="edu-card">
+          <div>
+            <h3>University Of Missouri – Kansas City</h3>
+            <p class="p-muted">Master of Science in Computer Science</p>
+            <p class="p-muted">GPA: 3.94</p>
+          </div>
+          <div class="pill-small">Aug 2023 – May 2025</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Let’s Connect</h2>
+          <p class="p-muted">
+            Want to collaborate or discuss an opportunity? Send a message — I’ll reply quickly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Contact Details</h3>
+            <div class="contact-lines">
+              <a class="contact-line" href="mailto:veerendrasabbina752@gmail.com">
+                <span class="c-ico" aria-hidden="true">✉</span>
+                veerendrasabbina752@gmail.com
+              </a>
+              <a class="contact-line" href="tel:+18162558544">
+                <span class="c-ico" aria-hidden="true">☎</span>
+                +1 (816) 255-8544
+              </a>
+              <a class="contact-line" href="https://www.linkedin.com/in/veerendrasabbina" target="_blank" rel="noreferrer">
+                <span class="c-ico" aria-hidden="true">in</span>
+                LinkedIn
+              </a>
+              <a class="contact-line" href="https://github.com/vsb63" target="_blank" rel="noreferrer">
+                <img src="github.png" class="c-img" alt="">
+                GitHub
+              </a>
+            </div>
+
+            <div class="divider" aria-hidden="true"></div>
+
+            <p class="p-muted">
+              Prefer email? You can also download my resume and reach out directly.
+            </p>
+            <a class="btn primary" href="VEERENDRA_resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          </div>
+
+          <form class="contact-form" id="contactForm" aria-label="Contact form">
+            <label class="sr-only" for="from_name">Your Name</label>
+            <input type="text" id="from_name" name="from_name" placeholder="Your Name" required>
+
+            <label class="sr-only" for="reply_to">Your Email</label>
+            <input type="email" id="reply_to" name="reply_to" placeholder="Your Email" required>
+
+            <label class="sr-only" for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project..." rows="7" required></textarea>
+
+            <button class="btn primary send" id="sendBtn" type="submit">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M22 2 11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M22 2 15 22l-4-9-9-4 20-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              Send Email
+            </button>
+
+            <p class="status" id="formStatus" aria-live="polite"></p>
+            <p class="hint">This opens your default email client with a pre-filled message.</p>
+          </form>
+        </div>
+
+        <footer class="footer">
+          <div class="footer-left">
+            <a class="brand small" href="#home">Veerendra<span class="dot">.</span></a>
+            <span class="p-muted small">© <span id="year"></span>
+          </div>
+
+          <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#projects">Experience</a>
+            <a href="VEERENDRA_resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
